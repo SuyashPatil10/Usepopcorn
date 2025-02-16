@@ -1,70 +1,50 @@
-# UsePopcorn
+# 🎬 UsePopCorn
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based movie web application that fetches movie data from a remote API, allows users to **rate movies**, and stores ratings using the **Local Storage API**. The app also includes a **search functionality** to find specific movies.
 
-## Available Scripts
+## 🚀 Features
+- Fetches movie data from an external API 📡
+- Allows users to rate movies ⭐
+- Stores ratings persistently in **Local Storage** 💾
+- Search functionality to find movies quickly 🔍
+- Uses **React Hooks** (`useState`, `useEffect`) for state and side effects
 
-In the project directory, you can run:
+## 🛠️ Tech Stack
+- **React** ⚛️
+- **JavaScript (ES6+)**
+- **CSS / TailwindCSS** (if used)
+- **Local Storage API**
 
-### `npm start`
+## 📦 Installation & Setup
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/UsePopCorn.git
+   cd UsePopCorn
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Image Refs
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![ss1](https://github.com/user-attachments/assets/9e58ef7c-95b7-434d-89f5-a5d38e70423e)
 
-### `npm test`
+![ss2](https://github.com/user-attachments/assets/02e764e5-48a6-489b-8727-f54b93fb66fc)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![ss3](https://github.com/user-attachments/assets/9860ba49-ab41-4850-9110-13fe4302de42)
 
-### `npm run build`
+![ss4](https://github.com/user-attachments/assets/7dce61e1-4fed-482a-a6c7-d7fae9fde3bf)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🌟 How It Works
+- The app fetches movie data from an external API.
+- Users can rate movies, and ratings are stored in Local Storage.
+- A search bar helps find movies quickly.
+- Ratings remain saved even after page reloads.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📌 Future Enhancements
+- Implement a backend for persistent storage 🗄️
+- Add user authentication 🔑
+- Improve UI/UX with animations 🎨
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
